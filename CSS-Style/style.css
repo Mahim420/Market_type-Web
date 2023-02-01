@@ -1,0 +1,544 @@
+/* --------------------------GOOGLE FONTS------------------------- */
+<style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+</style>
+/*------------------------- COMMON UTILITIES---------------------*/
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*--------------------------------------NAVIGATION BAR-----------------------------*/
+
+.start {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mobile {
+    display: none;
+}
+
+.start-title {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 58px;
+    background-color: #5E6366;
+    padding: 10px;
+    color: gold;
+    position: sticky;
+
+}
+
+.start a {
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+
+/* ---------------FIRST SECTIONS STYLE BEGINS----------------- */
+.first-article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.camera-pic img {
+    height: 414px;
+    width: 440px;
+    cursor: zoom-in;
+}
+
+.camera-info {
+    height: 270px;
+    width: 582px;
+}
+
+.f-title {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700px;
+    color: #3A3A3A;
+    font-size: 52px;
+    text-decoration: none;
+}
+
+.about-camera {
+    color: #3A3A3A;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.product-button {
+    width: 196px;
+    height: 44px;
+    border: none;
+    background-color: deeppink;
+    border-radius: 50px;
+    font-family: 'poppins';
+    font-weight: 800;
+    padding: 5px;
+    color: whitesmoke;
+    margin-top: 19px;
+    cursor: pointer;
+}
+
+.fa-bag-shopping {
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.581);
+}
+
+/* ---------------FIRST SECTIONS STYLE END----------------- */
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+.shop {
+    width: 1160px;
+    height: 110px;
+    border: 0px solid rgba(0, 0, 0, 0.201);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.pic-4 {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.pic-4 img {
+    margin: 39px;
+}
+
+.pic-3 {
+    display: flex;
+    align-items: center;
+}
+
+.pic-3 img {
+    margin: 32px;
+}
+
+.shop img:hover {
+    transform: scale(1.5);
+}
+
+/*....................................SECOND SECTION...........................*/
+
+.popular-collection {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: brown;
+    margin-top: 274px;
+}
+
+.blogs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 37px;
+    grid-row-gap: 29px;
+    margin-top: 60px;
+}
+
+.all-article {
+    border-radius: 20px;
+    width: 300px;
+    height: 510px;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.s-title {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700px;
+    font-size: 30px;
+    margin-bottom: -10px;
+    color: blue;
+}
+
+.price {
+    font-family: 'roboto';
+    display: flex;
+    column-gap: 10px;
+}
+
+.text {
+    color: red;
+}
+
+.fa-money-bill {
+    color: green;
+}
+
+.rating-info {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin-top: -41px;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+    color: gold;
+    font-size: 22px;
+    height: 16px;
+    width: 25px;
+}
+
+.rate {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #5E6366;
+    font-weight: 700;
+}
+
+.product-info {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: -10px;
+    color: fuchsia;
+}
+
+.see-more {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 790;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 1367px;
+    column-gap: 8px;
+    margin-top: 46px;
+    color: #E02C6D;
+    cursor: pointer;
+}
+
+
+/*------------------------------------THIRD SECTION---------------------------*/
+
+.blogs-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: ce;
+    width: 1065px;
+    margin-top: 150px;
+    padding: 15px;
+}
+
+.tool-title {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.about-tool {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.gear-button {
+    width: 196px;
+    height: 44px;
+    border: none;
+    background-color: deeppink;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 10px;
+    color: whitesmoke;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+/*------------------------------------FOOTER PART-------------------------- */
+
+footer {
+    background-color: rgba(10, 10, 10, 0.87);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 257px;
+    margin-top: 170px;
+}
+
+.footer-content {
+    margin-top: 24px;
+    padding: 10px;
+}
+
+.footer-head {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    font-family: 'Manrope', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-end {
+    font-family: 'Manrope', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -49px;
+}
+
+.footer-icon a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 25px;
+
+}
+
+.fa-square-instagram:hover,
+.fa-square-facebook:hover,
+.fa-square-twitter:hover,
+.fa-youtube:hover {
+    transform: scale(1.1);
+}
+
+
+/*------------------------------FOR MOBILE-------------------- */
+@media only screen and (max-width:576px) {
+
+    /*-------------------------------NAVBAR-----------------------------*/
+    .start {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 50px;
+        align-items: center;
+    }
+
+    .mobile-start {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 650px;
+        font-size: 25px;
+        color: blue;
+    }
+
+    .bar {
+        color: blue;
+        font-size: 25px;
+    }
+
+    .mobile-shop {
+        font-size: 25px;
+        color: blue;
+    }
+
+
+    /* ---------------FIRST SECTIONS STYLE BEGINS----------------- */
+    .first-article {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .camera-pic img {
+        height: 250px;
+        width: 250px;
+        cursor: zoom-in;
+
+    }
+
+    .f-title {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 650px;
+        color: #3A3A3A;
+        font-size: 28px;
+    }
+
+    .camera-info {
+        height: 270px;
+        width: 300px;
+    }
+
+
+    /* ----------------------------SHOP------------------- */
+    .shop {
+        width: 420px;
+        height: 96px;
+        border: 0px solid rgba(0, 0, 0, 0.201);
+        display: block;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .container {
+
+        justify-content: center;
+        margin-top: 170px;
+    }
+
+
+
+    .shop img {
+        width: 52px;
+        height: 42px;
+        margin-left: 16px;
+        margin-top: -7px;
+    }
+
+    .pic-4 {
+        align-items: center;
+    }
+
+    .pic-3 {
+        margin-left: 48px;
+        align-items: center;
+    }
+
+    .pic-3 img {
+        margin: 25px;
+        margin-top: -56px;
+        width: 58px;
+        height: 49px;
+
+    }
+
+    /*----------------------------------SECTION-2-------------------------------*/
+
+    .popular-collection {
+        font-size: 25px;
+        margin-top: 115px;
+        font-weight: 750;
+    }
+
+    .blog {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 29px;
+        margin-top: 60px;
+    }
+
+    .see-more {
+        font-size: 19px;
+        width: 352px;
+        margin-top: 46px;
+        align-items: center;
+    }
+
+    /*---------------------------------SECTION-3------------------------*/
+
+    .blog-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: ce;
+        width: 1065px;
+        margin-top: 150px;
+        padding: 15px;
+    }
+
+    .tool-pic img {
+        width: 341px;
+    }
+
+    .tool-title {
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 780;
+        font-size: 27px;
+    }
+
+    /*-------------------------------FOOTER PART--------------------------*/
+
+    .footer-head {
+        font-weight: 770;
+        font-size: 18px;
+    }
+
+    .footer-content {
+        padding: 45px;
+    }
+
+    .copyright {
+        font-size: 17px;
+        font-weight: 500;
+        display: flex;
+    }
+
+    .footer-end {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .footer-icon a {
+        margin-right: 30px;
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 20px;
+
+    }
+
+    .footer-icon {
+        margin-right: -31px;
+    }
+
+}
